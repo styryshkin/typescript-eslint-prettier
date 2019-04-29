@@ -1,0 +1,35 @@
+{
+  "name": "typescript-eslint-prettier",
+  "version": "1.0.0",
+  "description": "Simple Boilerplate for Typescript, ESLint and Prettier",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha -r ts-node/register tests/**/*.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/styryshkin/typescript-eslint-prettier.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/styryshkin/typescript-eslint-prettier#readme",
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.6",
+    "@typescript-eslint/eslint-plugin": "^1.7.0",
+    "@typescript-eslint/parser": "^1.7.0",
+    "chai": "^4.2.0",
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^4.2.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "husky": "^2.1.0",
+    "lint-staged": "^8.1.5",
+    "mocha": "^6.1.4",
+    "prettier": "^1.17.0",
+    "ts-node": "^8.1.0",
+    "typescript": "^3.4.5",
+    "typings": "^2.1.1"
+  }
+}
