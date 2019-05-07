@@ -13,5 +13,7 @@ test:
 		@echo Ending test
 clean:
 		rm -rf lib/
+build:
+		make clean && npm run build
 
-.PHONY: test clean
+.PHONY: test clean build
