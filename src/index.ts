@@ -2,6 +2,8 @@
  * @fileoverview Main file
  */
 
-const str = 'Hello, Typescript!';
+function test(): boolean {
+  return true;
+}
 
-console.log(str);
+export default test;

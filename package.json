@@ -2,10 +2,10 @@
   "name": "typescript-eslint-prettier",
   "version": "1.0.0",
   "description": "Simple Boilerplate for Typescript, ESLint and Prettier",
-  "main": "index.js",
+  "main": "lib",
+  "types": "lib/index",
   "scripts": {
-    "build": "tsc",
-    "test": "mocha -r ts-node/register tests/**/*.ts"
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
